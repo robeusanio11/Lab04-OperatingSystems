@@ -68,9 +68,10 @@ int main() {
     insertNode(&head, 10); // Insert nodes
     insertNode(&head, 20);
     insertNode(&head, 30);
-    
+
     printf("Linked List: ");
     printList(head); // Print list
+    
     deleteNode(&head, 20); // Delete a node
     printf("Linked List after deletion: ");
     printList(head); // Print list after deletion
